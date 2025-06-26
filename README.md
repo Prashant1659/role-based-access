@@ -32,52 +32,37 @@ A full-stack blogging platform with **JWT-based authentication**, **admin/user r
 
 ## 📁 Folder Structure
 
-.
-ROLE-BASED-ACCESS-SYSTEM
-├── Backend
-│ ├── public/
-│ ├── src/
-│ │ ├── controllers/
-│ │ │ ├── blog.controller.js
-│ │ │ └── user.controller.js
-│ │ ├── db/
-│ │ │ └── index.js
-│ │ ├── middlewares/
-│ │ │ ├── auth.middleware.js
-│ │ │ └── role.middleware.js
-│ │ ├── models/
-│ │ │ ├── post.models.js
-│ │ │ └── user.models.js
-│ │ ├── routes/
-│ │ │ ├── auth.routes.js
-│ │ │ └── blog.routes.js
-│ │ ├── utils/
-│ │ └── app.js
-│ ├── .env.sample
-│ ├── package.json
-│ └── README.md
-│
+ROLE-BASED-ACCESS-SYSTEM/
+├── Backend/
+│   ├── public/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── db/
+│   │   ├── middlewares/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── utils/
+│   │   └── app.js
+│   ├── .env.sample
+│   ├── package.json
+│   └── README.md
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── assets/
-│ │ ├── components/
-│ │ │ ├── BlogCard.jsx
-│ │ │ └── Navbar.jsx
-│ │ ├── pages/
-│ │ │ ├── AdminDashboard.jsx
-│ │ │ ├── BlogList.jsx
-│ │ │ ├── Login.jsx
-│ │ │ └── Signup.jsx
-│ │ ├── api.js
-│ │ ├── auth.js
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── index.css
-│ │ └── main.jsx
-│ ├── .env
-├── package.json
-└── README.md
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── api.js
+│   │   ├── auth.js
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .env
+│   ├── package.json
+│   └── README.md
+
+---
 
 # To run this code these are the requirements
 - System should have Node.js and Mongodb installed
